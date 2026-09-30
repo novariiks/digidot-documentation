@@ -34,6 +34,15 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 
+copyright: >
+  © 2026 Novari IKS ·
+  <a href="https://novari.no/prosjekter/prosjekt-z/" target="_blank" rel="noopener">
+    About the DigiDOT project
+  </a>
+
+extra:
+  generator: false
+
 extra_css:
   - assets/stylesheets/extra.css
 

@@ -60,3 +60,32 @@
   margin-top: 0;
   color: var(--novari-burgundy);
 }
+
+/* Novari styled footer */
+.md-footer {
+  background-color: var(--novari-burgundy);
+}
+
+.md-footer-meta {
+  background-color: var(--novari-burgundy);
+}
+
+.md-footer-meta__inner {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.md-copyright {
+  color: var(--novari-beige);
+}
+
+.md-copyright a {
+  color: var(--novari-coral);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.md-copyright a:hover {
+  color: var(--novari-purple);
+  text-decoration: underline;
+}
