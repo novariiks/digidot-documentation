@@ -4,5 +4,24 @@ site_description: Documentation for DigiDOT EHR integrations and interfaces
 theme:
   name: material
 
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+
 nav:
   - Home: index.md
