@@ -1,0 +1,8 @@
+site_name: DigiDOT Documentation
+site_description: Documentation for DigiDOT EHR integrations and interfaces
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
