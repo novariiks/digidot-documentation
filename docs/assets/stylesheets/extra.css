@@ -1,0 +1,62 @@
+:root {
+  --novari-coral: #F76650;
+  --novari-burgundy: #6B133D;
+  --novari-beige: #F8ECDC;
+  --novari-purple: #7F78E8;
+
+  --md-primary-fg-color: var(--novari-burgundy);
+  --md-accent-fg-color: var(--novari-purple);
+}
+
+/* Header */
+.md-header {
+  background-color: var(--novari-burgundy);
+}
+
+/* Top navigation, if enabled */
+.md-tabs {
+  background-color: var(--novari-burgundy);
+}
+
+/* Main headings */
+.md-typeset h1,
+.md-typeset h2 {
+  color: var(--novari-burgundy);
+}
+
+/* Links */
+.md-typeset a {
+  color: var(--novari-purple);
+}
+
+/* Link hover */
+.md-typeset a:hover {
+  color: var(--novari-coral);
+}
+
+/* Accent on active navigation */
+.md-nav__link--active {
+  color: var(--novari-coral);
+}
+
+/* Simple Novari styled card */
+.novari-card {
+  background: var(--novari-beige);
+  border-left: 4px solid var(--novari-coral);
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin: 1rem 0;
+}
+
+/* Optional intro/hero block */
+.novari-hero {
+  background: var(--novari-beige);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.novari-hero h1 {
+  margin-top: 0;
+  color: var(--novari-burgundy);
+}

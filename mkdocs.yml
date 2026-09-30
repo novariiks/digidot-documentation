@@ -7,6 +7,11 @@ repo_name: digidot-documentation
 theme:
   name: material
 
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+
   features:
     - navigation.sections
     - navigation.expand
@@ -25,6 +30,9 @@ markdown_extensions:
   - tables
   - pymdownx.details
   - pymdownx.superfences
+
+extra_css:
+  - assets/stylesheets/extra.css
 
 nav:
   - Home: index.md
