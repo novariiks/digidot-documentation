@@ -89,25 +89,3 @@
   color: var(--novari-purple);
   text-decoration: underline;
 }
-
-/* Make the site title in the left navigation more subtle */
-.md-sidebar--primary .md-nav__title {
-  font-size: 0.72rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: #6B133D;
-  opacity: 0.75;
-}
-
-/* Make top-level navigation sections more prominent */
-.md-sidebar--primary .md-nav__item--section > .md-nav__link {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #6B133D;
-}
-
-/* Keep child navigation items visually subordinate */
-.md-sidebar--primary .md-nav__item--section .md-nav__link {
-  font-size: 0.88rem;
-}
