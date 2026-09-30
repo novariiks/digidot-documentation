@@ -89,23 +89,3 @@
   color: var(--novari-purple);
   text-decoration: underline;
 }
-
-/* Top-level navigation tabs */
-.md-tabs {
-  background-color: var(--novari-burgundy);
-}
-
-.md-tabs__link {
-  opacity: 0.8;
-}
-
-.md-tabs__link:hover {
-  color: var(--novari-coral);
-  opacity: 1;
-}
-
-.md-tabs__item--active .md-tabs__link {
-  color: var(--novari-coral);
-  font-weight: 600;
-  opacity: 1;
-}
