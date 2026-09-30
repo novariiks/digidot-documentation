@@ -1,5 +1,3 @@
-#Tannjorn was here!!!!!!!!!
-
 # DigiDOT Technical Documentation
 
 Welcome to the technical documentation for **DigiDOT**.
