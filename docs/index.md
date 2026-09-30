@@ -20,7 +20,7 @@ Information about data structures, FHIR profiles, terminology and code systems u
 
 ### Future development
 
-The documentation on this page will continiously evolve over time.
+The documentation on this page will continuously evolve over time.
 
 Our plan is to cover the following additional areas in the near future:
 
