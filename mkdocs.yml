@@ -7,6 +7,9 @@ repo_name: digidot-documentation
 theme:
   name: material
 
+  logo: assets/images/novari-logo.svg
+  favicon: assets/images/novari-favicon.svg
+
   palette:
     - scheme: default
       primary: custom
