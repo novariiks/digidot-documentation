@@ -1,6 +1,9 @@
 site_name: DigiDOT Documentation
 site_description: Documentation for DigiDOT EHR integrations and interfaces
 
+repo_url: https://github.com/novariiks/digidot-documentation
+repo_name: digidot-documentation
+
 theme:
   name: material
 
