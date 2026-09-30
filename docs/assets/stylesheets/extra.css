@@ -90,35 +90,43 @@
   text-decoration: underline;
 }
 
-/* Site title in left navigation */
-.md-nav--primary > .md-nav__title {
-  color: var(--novari-burgundy);
-  font-weight: 700;
-  font-size: 0.95rem;
-  letter-spacing: 0.01em;
+/* --- Left navigation hierarchy --- */
+
+/* DigiDOT Documentation / site title */
+.md-sidebar--primary .md-nav--primary > .md-nav__title {
+  font-size: 0.72rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: rgba(0, 0, 0, 0.55);
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(107, 19, 61, 0.15);
 }
 
-/* Top-level section titles */
-.md-nav--primary .md-nav__item--nested > .md-nav__link {
-  font-weight: 600;
+/* Top-level sections, e.g. Profiling and terminology */
+.md-sidebar--primary
+.md-nav--primary
+> .md-nav__list
+> .md-nav__item--section
+> .md-nav__link {
   color: var(--novari-burgundy);
-  margin-top: 0.6rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-top: 0.8rem;
+}
+
+/* Normal navigation links underneath sections */
+.md-sidebar--primary
+.md-nav--primary
+> .md-nav__list
+.md-nav__item:not(.md-nav__item--section)
+.md-nav__link {
+  font-size: 0.88rem;
 }
 
 /* Active page */
-.md-nav__link--active {
+.md-sidebar--primary .md-nav__link--active {
   color: var(--novari-coral);
   font-weight: 600;
-}
-
-/* Child items slightly more subtle */
-.md-nav--primary .md-nav .md-nav__link {
-  font-size: 0.9rem;
-}
-
-/* Add a small divider below the site title */
-.md-nav--primary > .md-nav__title {
-  border-bottom: 1px solid rgba(107, 19, 61, 0.15);
-  padding-bottom: 0.8rem;
-  margin-bottom: 0.5rem;
 }
