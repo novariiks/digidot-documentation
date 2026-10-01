@@ -89,3 +89,22 @@
   color: var(--novari-purple);
   text-decoration: underline;
 }
+
+/* Left navigation hierarchy */
+@media screen and (min-width: 60em) {
+  .md-sidebar--primary .md-nav--primary > .md-nav__title[for="__drawer"] {
+    color: var(--novari-burgundy);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    opacity: 0.75;
+    text-transform: uppercase;
+  }
+
+  .md-sidebar--primary .md-nav__item--section > .md-nav {
+    border-inline-start: 1px solid rgba(107, 19, 61, 0.18);
+    margin-block-start: 0.35rem;
+    margin-inline-start: 0.35rem;
+    padding-inline-start: 0.5rem;
+  }
+}
