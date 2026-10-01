@@ -1,0 +1,19 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# MkDocs build output
+site/
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
