@@ -48,6 +48,7 @@ extra_css:
 
 nav:
   - Home: index.md
+  - Timeline: timeline.md
 
   # - Getting started:
   #     - Overview: getting-started/index.md
