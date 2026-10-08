@@ -1,15 +1,8 @@
-# Documentation timeline for EHR suppliers
+# Documentation timeline
 
 DigiDOT will publish documentation of the central storage solution and its integration points in stages. The first documentation package is planned by **1 November 2026**, with the complete central storage EHR documentation package planned by **1 March 2027**.
 
 Technical documentation, implementation guidance, API references and supporting resources will be released progressively as individual services become ready for exploration.
-
-## Planned milestones
-
-| Milestone | Planned availability |
-| --- | --- |
-| First documentation package | By **1 November 2026** |
-| Complete documentation package | By **1 March 2027** |
 
 ## Planned release windows
 
