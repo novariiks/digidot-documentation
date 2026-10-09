@@ -53,10 +53,11 @@ nav:
   # - Getting started:
   #     - Overview: getting-started/index.md
 
-  # - Architecture:
-  #     - Overview: architecture/index.md
-  #     - System context: architecture/system-context.md
-  #     - Integration overview: architecture/integration-overview.md
+  - Architecture:
+      - Overview: architecture/index.md
+      - Overall architecture: architecture/overall-architecture.md
+      # - System context: architecture/system-context.md
+      # - Integration overview: architecture/integration-overview.md
 
   # - EPJ integration:
   #     - Overview: integration/index.md
