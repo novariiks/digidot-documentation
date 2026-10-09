@@ -10,8 +10,6 @@ This section documents all aspects of the architecture relevant to suppliers and
 ## Architecture pages
 
 - [Overall architecture](overall-architecture.md) describes the overall target architecture foundation for the shared Electronic Health Record platform.
-- [System context](system-context.md) introduces the systems and specifications within the documentation scope.
-- [Integration overview](integration-overview.md) identifies the service topics and the interface details still to be documented.
 
 ## Documentation and readiness
 
