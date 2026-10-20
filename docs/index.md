@@ -9,7 +9,6 @@ We are aiming for providing overall architecture goals, internal architecture, e
 
 ## About DigiDOT
 
-First of all, what is DigiDOT?
 DigiDOT means "Digitalization of the public dental service" in Norway (Digitalisering av den offentlige tannhelsetjenesten).
 
 The overall goal for DigiDOT as a project is to establish a common digital service and infrastructure for the entire public dental health service in Norway with a share common data foundation.
